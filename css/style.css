@@ -1,0 +1,142 @@
+body{
+  font-family: 'Poppins';
+  background-color: hsl(229, 6%, 66%);
+}
+
+p{
+  font-size: 0.8rem;
+}
+
+.head-text{
+  text-align: center;
+  line-height: 1;
+  padding: 5% 15%;
+
+}
+
+.container {
+    margin: auto;
+
+}
+
+
+.head-paragraph{
+width: 70%;
+margin: auto;
+
+}
+
+.all-container{
+  display: grid;
+  position: static;
+  background-color: #fff;
+  margin: 2% 10%;
+  padding: 50px;
+  box-shadow: 4px 9px 4px 1px rgba(0, 0, 255, .2);
+}
+
+.grid-container{
+  display: inline-block;
+  position: static;
+  padding: 0;
+  align-content: space-between;
+  margin: auto;
+  justify-content: center;
+
+}
+
+.all-div{
+  display: inline-block;
+  position: relative;
+  border-radius: 2%;
+  background-color: #fff;
+  height: 230px;
+  width:300px;
+  margin: 1.5%;
+  box-shadow: 2px 9px 4px 1px rgba(0, 0, 255, .2);
+}
+
+.inner-div{
+  padding: 0px 20px;
+  margin: 0;
+}
+
+hr{
+  border: solid 3px;
+}
+
+.hr-1{
+    border-color: hsl(180, 62%, 55%);
+}
+
+
+.hr-2{
+  border-color: hsl(0, 78%, 62%);
+}
+
+.hr-3{
+  border-color: hsl(34, 97%, 64%);
+}
+
+
+.div-1{
+
+display: inline-block;
+top: 160px;
+}
+
+.div-2{
+
+display: inline-block;
+
+}
+
+.div-3{
+display: inline-block;
+left: 330px;
+}
+
+.div-4{
+display: inline-block;
+left: 330px;
+bottom: 100px;
+/* left: 345px; */
+
+}
+
+.hr-4{
+  border-color: hsl(212, 86%, 64%);
+  }
+
+.all-img{
+  position: relative;
+width: 17%;
+bottom: 10px;
+padding: 8% 0 0% 80%;
+}
+
+.footer{
+  padding: 5%;
+  text-align: center;
+  width: 100%;
+}
+
+
+@media (max-width: 675px) {
+.all-container{
+  width: 100%;
+  position: static;
+  margin: 0;
+
+}
+
+  .all-div{
+    width: 100%;
+  position: static;
+  }
+
+
+  .div-1, .div-2, .div-3,.div-4{
+  position: static;
+
+  }
